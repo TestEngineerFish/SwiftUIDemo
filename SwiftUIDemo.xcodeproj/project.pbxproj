@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222F62C22965C3E900A1D2EE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222F62C12965C3E900A1D2EE /* Theme.swift */; };
+		228DAB3629670A0300625224 /* MimikkoDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228DAB3529670A0300625224 /* MimikkoDialog.swift */; };
 		229A622E28C222F1004296D0 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A622D28C222F1004296D0 /* HexagonParameters.swift */; };
 		229A623028C2245A004296D0 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A622F28C2245A004296D0 /* BadgeBackground.swift */; };
 		229A623228C22B58004296D0 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229A623128C22B58004296D0 /* BadgeSymbol.swift */; };
@@ -55,9 +57,42 @@
 		229EDCB728C1EF7D00FE4E71 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EDCB628C1EF7D00FE4E71 /* LandmarkList.swift */; };
 		229EDCB928C1FC6700FE4E71 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EDCB828C1FC6700FE4E71 /* LandmarkDetail.swift */; };
 		229EDCBB28C217B200FE4E71 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229EDCBA28C217B200FE4E71 /* FavoriteButton.swift */; };
+		22D5AE7A2B22CA8600521353 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D5AE5E2B22BAC600521353 /* WidgetKit.framework */; };
+		22D5AE7B2B22CA8600521353 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D5AE602B22BAC600521353 /* SwiftUI.framework */; };
+		22D5AE7E2B22CA8600521353 /* WatchTVBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5AE7D2B22CA8600521353 /* WatchTVBundle.swift */; };
+		22D5AE822B22CA8600521353 /* WatchTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5AE812B22CA8600521353 /* WatchTV.swift */; };
+		22D5AE842B22CA8600521353 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5AE832B22CA8600521353 /* AppIntent.swift */; };
+		22D5AE862B22CA8800521353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D5AE852B22CA8800521353 /* Assets.xcassets */; };
+		22D5AE8A2B22CA8800521353 /* WatchTVExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 22D5AE792B22CA8600521353 /* WatchTVExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		22D5AE882B22CA8800521353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229EDC7128C1D90A00FE4E71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22D5AE782B22CA8600521353;
+			remoteInfo = WatchTVExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22D5AE742B22BAC700521353 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				22D5AE8A2B22CA8800521353 /* WatchTVExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		222F62C12965C3E900A1D2EE /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		228DAB3529670A0300625224 /* MimikkoDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimikkoDialog.swift; sourceTree = "<group>"; };
 		229A622D28C222F1004296D0 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		229A622F28C2245A004296D0 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		229A623128C22B58004296D0 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
@@ -107,6 +142,15 @@
 		229EDCB628C1EF7D00FE4E71 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		229EDCB828C1FC6700FE4E71 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		229EDCBA28C217B200FE4E71 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		22AB2E67294618C700756BFB /* MimikkoTheme */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MimikkoTheme; path = ../MimikkoTheme; sourceTree = "<group>"; };
+		22D5AE5E2B22BAC600521353 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		22D5AE602B22BAC600521353 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		22D5AE792B22CA8600521353 /* WatchTVExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WatchTVExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D5AE7D2B22CA8600521353 /* WatchTVBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTVBundle.swift; sourceTree = "<group>"; };
+		22D5AE812B22CA8600521353 /* WatchTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchTV.swift; sourceTree = "<group>"; };
+		22D5AE832B22CA8600521353 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		22D5AE852B22CA8800521353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22D5AE872B22CA8800521353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +161,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22D5AE762B22CA8600521353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D5AE7B2B22CA8600521353 /* SwiftUI.framework in Frameworks */,
+				22D5AE7A2B22CA8600521353 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		228DAB34296709DD00625224 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				222F62C12965C3E900A1D2EE /* Theme.swift */,
+				228DAB3529670A0300625224 /* MimikkoDialog.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
 		229A623728C22FB9004296D0 /* Badges */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,8 +240,11 @@
 		229EDC7028C1D90A00FE4E71 = {
 			isa = PBXGroup;
 			children = (
+				22AB2E6429460FC000756BFB /* Packages */,
 				229EDC7B28C1D90A00FE4E71 /* SwiftUIDemo */,
+				22D5AE7C2B22CA8600521353 /* WatchTV */,
 				229EDC7A28C1D90A00FE4E71 /* Products */,
+				22AB2E68294618F600756BFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -187,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				229EDC7928C1D90A00FE4E71 /* SwiftUIDemo.app */,
+				22D5AE792B22CA8600521353 /* WatchTVExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -252,6 +318,7 @@
 		229EDCB228C1EC1300FE4E71 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				228DAB34296709DD00625224 /* Theme */,
 				229A625728C5E410004296D0 /* PageView */,
 				229A624E28C5D12E004296D0 /* Profiles */,
 				229A624528C5C4CD004296D0 /* Categories */,
@@ -295,6 +362,35 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		22AB2E6429460FC000756BFB /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				22AB2E67294618C700756BFB /* MimikkoTheme */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		22AB2E68294618F600756BFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22D5AE5E2B22BAC600521353 /* WidgetKit.framework */,
+				22D5AE602B22BAC600521353 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22D5AE7C2B22CA8600521353 /* WatchTV */ = {
+			isa = PBXGroup;
+			children = (
+				22D5AE7D2B22CA8600521353 /* WatchTVBundle.swift */,
+				22D5AE812B22CA8600521353 /* WatchTV.swift */,
+				22D5AE832B22CA8600521353 /* AppIntent.swift */,
+				22D5AE852B22CA8800521353 /* Assets.xcassets */,
+				22D5AE872B22CA8800521353 /* Info.plist */,
+			);
+			path = WatchTV;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -305,15 +401,34 @@
 				229EDC7528C1D90A00FE4E71 /* Sources */,
 				229EDC7628C1D90A00FE4E71 /* Frameworks */,
 				229EDC7728C1D90A00FE4E71 /* Resources */,
+				22D5AE742B22BAC700521353 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				22D5AE892B22CA8800521353 /* PBXTargetDependency */,
 			);
 			name = SwiftUIDemo;
 			productName = SwiftUIDemo;
 			productReference = 229EDC7928C1D90A00FE4E71 /* SwiftUIDemo.app */;
 			productType = "com.apple.product-type.application";
+		};
+		22D5AE782B22CA8600521353 /* WatchTVExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22D5AE8B2B22CA8800521353 /* Build configuration list for PBXNativeTarget "WatchTVExtension" */;
+			buildPhases = (
+				22D5AE752B22CA8600521353 /* Sources */,
+				22D5AE762B22CA8600521353 /* Frameworks */,
+				22D5AE772B22CA8600521353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchTVExtension;
+			productName = WatchTVExtension;
+			productReference = 22D5AE792B22CA8600521353 /* WatchTVExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -322,11 +437,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					229EDC7828C1D90A00FE4E71 = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					22D5AE782B22CA8600521353 = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
@@ -344,6 +462,7 @@
 			projectRoot = "";
 			targets = (
 				229EDC7828C1D90A00FE4E71 /* SwiftUIDemo */,
+				22D5AE782B22CA8600521353 /* WatchTVExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -372,6 +491,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22D5AE772B22CA8600521353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D5AE862B22CA8800521353 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -382,6 +509,7 @@
 				229A624928C5C7BD004296D0 /* CategoryRow.swift in Sources */,
 				229A625028C5D139004296D0 /* ProfilesHost.swift in Sources */,
 				229A624D28C5D04F004296D0 /* Profile.swift in Sources */,
+				228DAB3629670A0300625224 /* MimikkoDialog.swift in Sources */,
 				229EDC7F28C1D90A00FE4E71 /* ContentView.swift in Sources */,
 				229A625B28C5EDD4004296D0 /* FeatureCard.swift in Sources */,
 				229A624728C5C4E1004296D0 /* CategoryHome.swift in Sources */,
@@ -394,6 +522,7 @@
 				229A622E28C222F1004296D0 /* HexagonParameters.swift in Sources */,
 				229A624B28C5C910004296D0 /* CategoryItem.swift in Sources */,
 				229A625228C5D17D004296D0 /* ProfileSummary.swift in Sources */,
+				222F62C22965C3E900A1D2EE /* Theme.swift in Sources */,
 				229A623428C22DF9004296D0 /* RotatedBadgeSymbol.swift in Sources */,
 				229A623228C22B58004296D0 /* BadgeSymbol.swift in Sources */,
 				229EDCB728C1EF7D00FE4E71 /* LandmarkList.swift in Sources */,
@@ -414,7 +543,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		22D5AE752B22CA8600521353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D5AE822B22CA8600521353 /* WatchTV.swift in Sources */,
+				22D5AE842B22CA8600521353 /* AppIntent.swift in Sources */,
+				22D5AE7E2B22CA8600521353 /* WatchTVBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22D5AE892B22CA8800521353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22D5AE782B22CA8600521353 /* WatchTVExtension */;
+			targetProxy = 22D5AE882B22CA8800521353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		229EDC8528C1D90C00FE4E71 /* Debug */ = {
@@ -534,12 +681,13 @@
 		229EDC8828C1D90C00FE4E71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = 4Z92CZGZZR;
+				DEVELOPMENT_TEAM = 7M4S44CE7D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -547,6 +695,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -554,21 +703,25 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tingyusha.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		229EDC8928C1D90C00FE4E71 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIDemo/Preview Content\"";
-				DEVELOPMENT_TEAM = 4Z92CZGZZR;
+				DEVELOPMENT_TEAM = 7M4S44CE7D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -576,6 +729,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +737,76 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tingyusha.SwiftUIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		22D5AE8C2B22CA8800521353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7M4S44CE7D;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchTV/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchTV;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tingyusha.SwiftUIDemo.WatchTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22D5AE8D2B22CA8800521353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7M4S44CE7D;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchTV/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchTV;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tingyusha.SwiftUIDemo.WatchTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -606,6 +830,15 @@
 			buildConfigurations = (
 				229EDC8828C1D90C00FE4E71 /* Debug */,
 				229EDC8928C1D90C00FE4E71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22D5AE8B2B22CA8800521353 /* Build configuration list for PBXNativeTarget "WatchTVExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22D5AE8C2B22CA8800521353 /* Debug */,
+				22D5AE8D2B22CA8800521353 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

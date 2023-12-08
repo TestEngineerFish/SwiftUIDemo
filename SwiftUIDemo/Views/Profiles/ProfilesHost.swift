@@ -34,10 +34,12 @@ struct ProfilesHost: View {
                     }
                     .onDisappear {
                         modelData.profile = draftProfile
-                    }
+                    }.id("test")
             }
         }
         .padding()
+        .foregroundColor(.red)
+        .background(.regularMaterial)
     }
     
     var cView: UIView = {
